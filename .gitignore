@@ -1,0 +1,7 @@
+# ignore .csv files
+*.csv
+# ignore .pdf files
+*.pdf
+# ignore h5 files
+*.h5
+
