@@ -1,4 +1,4 @@
-# mpc-DL-controller
+# My version of mpc-DL-controller repo
 Deep Neural Network architecture as predictive optimal controller for {HVAC+Solar cell + battery} disturbance afflicted system
 
 ***
