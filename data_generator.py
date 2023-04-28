@@ -240,7 +240,7 @@ def simulate_MPC(d_full, S = 100, N=10, x_init = np.array([[21],[150000]])):
 
 
 
-def import_disturbance(filepath='external_disturbances.mat'):
+def import_disturbance(filepath='data/external_disturbances.mat'):
     mat_disturbance = sio.loadmat(filepath)
     print('disturbance vector loaded')
     d_full = np.column_stack((mat_disturbance['room_temp'], mat_disturbance['sol_rad'], mat_disturbance['int_gains']))
