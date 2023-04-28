@@ -4,4 +4,6 @@
 *.pdf
 # ignore h5 files
 *.h5
+# ignore .mat files
+*.mat
 
